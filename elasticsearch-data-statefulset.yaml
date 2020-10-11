@@ -57,7 +57,7 @@ spec:
   - metadata:
       name: elasticsearch-data-persistent-storage
       annotations:
-        volume.beta.kubernetes.io/storage-class: "linode-block-storage-retain"
+        volume.beta.kubernetes.io/storage-class: "gp2"
     spec:
       accessModes: [ "ReadWriteOnce" ]
       storageClassName: standard
