@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  namespace: infra
+  namespace: kube-logging
   name: elasticsearch-data-config
   labels:
     app: elasticsearch
